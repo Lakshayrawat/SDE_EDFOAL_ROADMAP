@@ -6,7 +6,7 @@ If not it will simply put element present at 'j' position to the 'i' and increme
 But if it is equal then it will not put the 'i' element to 'j' and not increment 'j'.
 After doing the full iteration. It will print the element less than jth index.
 
-Basically in this approach we are just replacing the val(value to be removed) with value which is not to be removed.
+Basically in this approach we are just replacing the val(value to be removed) with value which is not to be removed.*/
 
 package array;
 import java.util.*;
