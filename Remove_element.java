@@ -11,11 +11,10 @@ public class Remove_element {
 		
 		int arr[] = new int[n];
 		
-		System.out.println("Enter array");
+		System.out.println("Enter elements of array");
+		
 		for(int i = 0; i < n; i++) {
-			
-			arr[i] = sc.nextInt();
-			
+		arr[i] = sc.nextInt();
 		}
 		
 		System.out.println("Enter value to be remove from array");
