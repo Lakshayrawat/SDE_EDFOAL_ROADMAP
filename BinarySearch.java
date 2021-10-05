@@ -31,9 +31,11 @@ public class BinarySearch {
 		
 		int l = 0;
 		int h = arr.length-1;
+		int mid = 0;
 		
 		while(l<h) {
-			int mid = (l+h)/2;
+			
+			mid = (l+h)/2;
 			if(arr[mid] == tar) {
 				System.out.println("Element found at "+mid );
 				return;
@@ -45,7 +47,8 @@ public class BinarySearch {
 				h = mid-1;
 			}
 		}
-		System.out.println("element should be inserted at "+ (l+1));
+		//mid will be the where the element has to be inserted or present.
+		System.out.println("element should be inserted at "+ mid);
 		
 	}
 
