@@ -21,6 +21,7 @@ public class BinarySearch {
 		System.out.println("Enter target value");
 		int tar = sc.nextInt();
 		
+		//Found function will find the position of the target and is the target is not present then will find the index where it can be inserted.
 		found(arr,tar);
 		
 
@@ -33,7 +34,7 @@ public class BinarySearch {
 		
 		while(l<h) {
 			int mid = (l+h)/2;
-			if(arr[mid]==tar) {
+			if(arr[mid] == tar) {
 				System.out.println("Element found at "+mid );
 				return;
 			}
