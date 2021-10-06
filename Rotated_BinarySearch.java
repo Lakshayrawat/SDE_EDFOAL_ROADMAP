@@ -23,7 +23,7 @@ public class Rotated_BinarySearch {
 		int tar = sc.nextInt();
 		int left  = 0 ;
 		int right = arr.length-1;
-		int flag =0;
+		
 		
 		 while(left<=right)
 	        {
@@ -31,7 +31,6 @@ public class Rotated_BinarySearch {
 
 	            if(arr[mid]==tar) {
 	            	System.out.println(mid);
-	            	flag =1;
 	            	return;
 	            }
 	                
@@ -51,8 +50,7 @@ public class Rotated_BinarySearch {
 	                    right = mid-1;
 	            }
 	        }
-		 if(flag == 0)
-			 System.out.println(-1);
+		
 		
 	}
 
