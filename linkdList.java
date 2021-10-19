@@ -42,6 +42,7 @@ public class LinkedList {
 		Node node = head;
 		while(node != null) {
 			System.out.print(node.data+" ");
+			node = node.next;
 		}
 	}
 	
