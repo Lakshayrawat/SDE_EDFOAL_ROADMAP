@@ -36,7 +36,7 @@ public class Cycle {
 		}
 	}
 	
-	//Approach 1
+		//Approach 1 - It will take O(n) extra space 
 	static boolean cycDetect1(Node head) {
 	
 		
@@ -71,6 +71,7 @@ public class Cycle {
 	}
 	
 	public static void main(String[] args) {
+		//Creating cycle
 		insert(1);
 		insert(2);
 		insert(3);
