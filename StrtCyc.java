@@ -29,13 +29,7 @@ public class StrtCyc {
 			n.next=new_node;
 		}
 	}
-	static void print(Node head) {
-		Node n = head;
-		while(n!=null) {
-			System.out.println(n.data);
-			n=n.next;
-		}
-	}
+	
 	
 	static Node strtPoint(Node node) {
 		
@@ -86,7 +80,7 @@ public class StrtCyc {
 		}
 		n.next = head.next;
 		
-		//Approach 1
+		
 		System.out.println(strtPoint(head).data);
 		
 	}
